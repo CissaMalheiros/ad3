@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.feito {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+.btnFeito, .btnExcluir {
+  margin-left: 10px;
+}
+
+.btnExcluir {
+  background-color: #dc3545;
+}
+
+.btnExcluir:hover {
+  background-color: #c82333;
+}
